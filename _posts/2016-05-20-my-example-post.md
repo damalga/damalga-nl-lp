@@ -1,6 +1,6 @@
 ---
 layout: post
-author: John Doe
+author: Damalga
 comments: false
 ---
 
