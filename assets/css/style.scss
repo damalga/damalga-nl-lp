@@ -4,4 +4,4 @@
 
 @import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 @import "minima/initialize";
-@import "fonts/inter/inter";
+@import "inter";
