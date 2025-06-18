@@ -38,8 +38,6 @@ theme: minima
 # sass:
 #   quiet_deps: true
 #   silence_deprecations: [import]
-include:
-  - assets/fonts
 
 # Minima-specific settings (applicable to Minima v3 and above only)
 # -----------------------------------------------------------------
