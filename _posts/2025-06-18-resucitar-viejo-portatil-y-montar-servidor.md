@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo resucitar un viejo portátil y montar un 2º servidor casero, tras quemar el 1º."
-date: 2025-06-20
+date: 2025-06-18
 author: Damalga
 comments: false
 ---
