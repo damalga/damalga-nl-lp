@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Cómo resucitar un viejo portátil y montar un 2º servidor casero, tras quemar el 1º."
-subtitle: "Ooo cómo dejar de pagar Spotify, Dropbox y demás alimañas."
 date: 2025-06-20
 author: Damalga
 comments: false
