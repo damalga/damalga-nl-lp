@@ -1,11 +1,22 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+//Inter-font
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+//Body
 body.site-body{
     background: black;
     color: white;
 }
 
+//Header
 header.site-header{
     .wrapper{
         .site-title{
@@ -25,6 +36,7 @@ header.site-header{
     }
 }
 
+//Footer
 footer.site-footer{
 
 }
