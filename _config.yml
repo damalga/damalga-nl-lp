@@ -76,13 +76,16 @@ theme: minima
 #       * title    Tooltip rendered on hovering over icon.
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
-#   social_links:
-#     - title: Minima Theme repository at GitHub
-#       icon: github
-#       url: "https://github.com/jekyll/minima"
-#     - title: Jekyll at X (formerly Twitter)
-#       icon: x-twitter
-#       url: "https://x.com/jekyllrb"
+social_links:
+  - title: Damalga en GitHub
+    icon: github
+    url: "https://github.com/damalga"
+  - title: Alcarciandamalga en Bluesky
+    icon: bluesky
+    url: "https://bsky.app/profile/alcarciandamalga.bsky.social"
+  - title: Alcarciandamalga en Reddit
+    icon: reddit
+    url: "https://www.reddit.com/user/alcarciandamalga/"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
