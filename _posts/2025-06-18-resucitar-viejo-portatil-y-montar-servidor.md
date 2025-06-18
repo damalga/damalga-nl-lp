@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Cómo resucitar un viejo portátil y montar un 2º servidor casero, tras quemar el 1º."
+title: "Monta tu propia nube con Nextcloud y Navidrome en un viejo ordenador con Debian + XFCE"
 date: 2025-06-18
 author: Damalga
 comments: false
 ---
-## Montar tu propia nube casera con Nextcloud y Navidrome en un viejo portátil con Debian + XFCE
 
 ### Introducción
 
@@ -17,8 +16,8 @@ Este documento es una guía para convertir un portátil viejo en una nube autosu
 
 ### Requisitos
 
-- Un ordenador  (en este caso, un HP Elitebook del 2015)
-- Un disco duro externo (en este caso de 4TB)
+- Un ordenador (en mi caso un portatil HP Elitebook del 2015)
+- Un disco duro externo (en mi caso un HDD 4TB)
 - Debian 12 con entorno XFCE instalado. Seguramente el proceso sea el mismo con cualquier distribución Linux basada en Debian. En mi caso usé Debian directamente y no Ubuntu o Tails (por decir alguna), por su estabilidad y el entorno de  escritorio XFCE por lo liviano, ya que mi portatil es viejito así que cuanto menos tenga que procesar pues mejor.
 - Conexión a Internet.
 - Ganas de cacharrear.

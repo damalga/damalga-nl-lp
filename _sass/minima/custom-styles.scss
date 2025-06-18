@@ -21,8 +21,11 @@ a{
 }
 
 code{
-    background-color: $light-gray;
     color: black;
+}
+
+div.highlight, figure.highlight{
+    border: 0;
 }
 
 //Body
