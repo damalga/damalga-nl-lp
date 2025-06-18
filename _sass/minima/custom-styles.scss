@@ -19,6 +19,22 @@ body.site-body {
     background: black;
     color: white;
     font-family: Inter, sans-serif;
+    main.page-content{
+        .home{
+            ul.post-list{
+                li{
+                    h3{
+                        a{
+                            color: $damalga-yellow;
+                            &:visited{
+                                color: $damalga-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 //Header
