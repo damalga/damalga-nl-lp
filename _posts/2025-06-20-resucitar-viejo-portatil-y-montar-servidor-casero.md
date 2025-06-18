@@ -1,11 +1,11 @@
 ---
 layout: post
+title: "Cómo resucitar un viejo portátil y montar un 2o servidor casero, tras quemar el 1o."
+subtitle: "Ooo cómo dejar de pagar Spotify, Dropbox y demás alimañas."
+date: 2025-06-20
 author: Damalga
 comments: false
 ---
-
-Cómo resucitar un viejo portátil y montar un 2o servidor casero, tras quemar el 1o.
-Ooo cómo dejar de pagar Spotify, Dropbox y demás alimañas.
 
 Hola, gente:
 Si estás leyendo esto es porque formas parte de la lista de ALCATAPES o POLYMORPHISM (2 de los sellos en los que estoy metido). O puede que simplemente hayas caído aquí desde alguna parte del hiperespacio digital. Sea como sea, bienvenido/a a este pequeño relato de cacharreo, música y liberación digital.
