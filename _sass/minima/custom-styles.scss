@@ -29,6 +29,9 @@ body.site-body {
         .home{
             ul.post-list{
                 li{
+                    .post-meta{
+                        color: $light-gray;
+                    }
                     h3{
                         a{
                             color: $damalga-yellow;
@@ -50,7 +53,7 @@ body.site-body {
                 }
             }
             .post-content{
-                h4{
+                h2,h3{
                     color: $damalga-yellow;
                 }
             }
