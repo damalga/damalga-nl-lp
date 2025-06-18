@@ -3,32 +3,37 @@
 
 //Inter-font
 :root {
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    font-family: Inter, sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
 }
 
 //Body
-body.site-body{
+body.site-body {
     background: black;
     color: white;
+    font-family: Inter, sans-serif;
 }
 
 //Header
-header.site-header{
-    .wrapper{
-        .site-title{
+header.site-header {
+    .wrapper {
+        .site-title {
             font-size: 1.4rem;
             color: black;
-            &:visited{
+            &:visited {
                 color: black;
             }
         }
-        .site-nav{
-            .nav-items{
-                .nav-item{
+        .site-nav {
+            .nav-items {
+                .nav-item {
                     color: black;
                 }
             }
@@ -37,6 +42,7 @@ header.site-header{
 }
 
 //Footer
-footer.site-footer{
-
+footer.site-footer {
+    background: white;
+    color: black;
 }
