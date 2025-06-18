@@ -1,2 +1,26 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+body.site-body{
+    background: $dark-gray;
+    color: $light-gray;
+}
+
+header.site-header{
+    .wrapper{
+        .site-title{
+            font-size: 1.4rem;
+            color: $dark-gray;
+            &:visited{
+                color: $dark-gray;
+            }
+        }
+        .site-nav{
+            .nav-items{
+                .nav-item{
+                    color: $dark-gray;
+                }
+            }
+        }
+    }
+}
