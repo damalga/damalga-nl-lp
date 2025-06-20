@@ -1,22 +1,118 @@
 <ul class="social-media-list">
-{%- for entry in site.minima.social_links -%}
-  <li>
-    <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
-      <span class="grey fa-brands fa-{{ entry.icon }} fa-lg"></span>
-    </a>
-  </li>
-{%- endfor -%}
-{% unless site.minima.hide_site_feed_link %}
-  <li>
-    <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank" title="Subscribe to syndication feed">
-      <svg class="svg-icon grey" viewbox="0 0 16 16">
-        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
-          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
-          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
-          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
-        />
-      </svg>
-    </a>
-  </li>
-{%- endunless %}
+    <table
+        class="social-links-container"
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        style="border-collapse: collapse"
+        role="presentation"
+    >
+        <tbody>
+            <tr class="social-links-row">
+                <td
+                    class="social-link-container"
+                    align="center"
+                    valign="middle"
+                    width="48"
+                    style="padding: 0 5px"
+                >
+                    <a href="https://damalga.com" target="_blank">
+                        <img
+                            src="https://gallery.eousercontent.com/tentacles/icons/v1/social-block/square/color/website.png"
+                            style="
+                                display: block;
+                                border: 0;
+                                height: auto;
+                                outline: none;
+                                text-decoration: none;
+                                -ms-interpolation-mode: bicubic;
+                            "
+                            height="48"
+                            width="48"
+                            alt="website social link"
+                        />
+                    </a>
+                </td>
+                <td
+                    class="social-link-container"
+                    align="center"
+                    valign="middle"
+                    width="48"
+                    style="padding: 0 5px"
+                >
+                    <a
+                        href="https://bsky.app/profile/alcarciandamalga.bsky.social"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://gallery.eousercontent.com/tentacles/icons/v1/social-block/square/color/bluesky.png"
+                            style="
+                                display: block;
+                                border: 0;
+                                height: auto;
+                                outline: none;
+                                text-decoration: none;
+                                -ms-interpolation-mode: bicubic;
+                            "
+                            height="48"
+                            width="48"
+                            alt="bluesky social link"
+                        />
+                    </a>
+                </td>
+                <td
+                    class="social-link-container"
+                    align="center"
+                    valign="middle"
+                    width="48"
+                    style="padding: 0 5px"
+                >
+                    <a
+                        href="https://www.reddit.com/user/_damalga/"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://gallery.eousercontent.com/tentacles/icons/v1/social-block/square/color/reddit.png"
+                            style="
+                                display: block;
+                                border: 0;
+                                height: auto;
+                                outline: none;
+                                text-decoration: none;
+                                -ms-interpolation-mode: bicubic;
+                            "
+                            height="48"
+                            width="48"
+                            alt="reddit social link"
+                        />
+                    </a>
+                </td>
+                <td
+                    class="social-link-container"
+                    align="center"
+                    valign="middle"
+                    width="48"
+                    style="padding: 0 5px"
+                >
+                    <a href="https://alcarcia.com" target="_blank">
+                        <img
+                            src="https://gallery.eousercontent.com/tentacles/icons/v1/social-block/square/color/website.png"
+                            style="
+                                display: block;
+                                border: 0;
+                                height: auto;
+                                outline: none;
+                                text-decoration: none;
+                                -ms-interpolation-mode: bicubic;
+                            "
+                            height="48"
+                            width="48"
+                            alt="website social link"
+                        />
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </ul>
