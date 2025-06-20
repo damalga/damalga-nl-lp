@@ -34,6 +34,13 @@ body.site-body {
     color: white;
     font-family: Inter, sans-serif;
     main.page-content{
+        .wrapper{
+            width: 1440px;
+            .post-content{
+                display: flex;
+                flex-direction: column;
+            }
+        }
         .home{
             ul.post-list{
                 li{
