@@ -28,6 +28,16 @@ ul, table{
     margin-bottom: 0;
 }
 
+table{
+    border: 0;
+    td{
+        border: 0;
+        img{
+            max-width: 75%;
+        }
+    }
+}
+
 div.highlight, figure.highlight{
     border: 0;
 }
