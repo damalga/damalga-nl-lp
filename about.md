@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+🇬🇧 About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I’m Damalga (acronym from my name), from Madrid.
+This is a bimonthly newsletter & landing page about technology, economy, philosophy, arts, and freedom.
+I build simple things, write about what catches my attention, and try to keep it clean and useful.
+If you want updates or random thoughts, stick around.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+---
 
+🇪🇸 Sobre mí
 
-[jekyll-organization]: https://github.com/jekyll
+Soy Damalga (acrónimo de mi nombre), de Madrid.
+Aquí tienes un boletín bimestral y landing sobre tecnología, economía, filosofía, arte y libertad.
+Me gusta hacer las cosas simples, escribir sobre lo que me interesa y mantener todo limpio y útil.
+Si te apetece recibir novedades o ideas sueltas, aquí estás en tu sitio.
