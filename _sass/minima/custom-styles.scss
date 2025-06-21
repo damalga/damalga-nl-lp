@@ -28,12 +28,14 @@ ul, table{
     margin-bottom: 0;
 }
 
-table{
-    border: 0;
-    td{
+.social-links{
+    table{
         border: 0;
-        img{
-            max-width: 75%;
+        td{
+            border: 0;
+            img{
+                max-width: 75%;
+            }
         }
     }
 }
