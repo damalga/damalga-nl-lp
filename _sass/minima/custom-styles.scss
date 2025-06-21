@@ -44,18 +44,19 @@ div.highlight, figure.highlight{
     border: 0;
 }
 
+.wrapper{
+    max-width: 880px;
+}
+
 //Body
 body.site-body {
     background: black;
     color: white;
     font-family: Inter, sans-serif;
     main.page-content{
-        .wrapper{
-            max-width: 880px;
-            .post-content{
-                display: flex;
-                flex-direction: column;
-            }
+        .post-content{
+            display: flex;
+            flex-direction: column;
         }
         .home{
             ul.post-list{
