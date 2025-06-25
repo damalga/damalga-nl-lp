@@ -122,6 +122,9 @@ header.site-header {
             .nav-items {
                 .nav-item {
                     color: black;
+                    a{
+                        font-size: .88em;
+                    }
                 }
             }
         }
@@ -132,6 +135,16 @@ header.site-header {
 footer.site-footer {
     background: white;
     color: black;
+    .footer-col{
+        ul.contact-list{
+            li{
+                font-size: .76em;
+            }
+        }
+        p{
+            font-size: .76em;
+        }
+    }
 }
 
 @media (max-width: 768px) {
