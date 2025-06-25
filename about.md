@@ -6,12 +6,10 @@ permalink: /about/
 
 🇪🇸 Sobre mí
 
-Soy Damalga (acrónimo de mi nombre): https://damalga.com, soy de Madrid. Y Esto es una web sobre tecnología, economía, filosofía, arte y libertad... En definitiva, cosas que me interesan. Me gusta hacer las cosas simples, consolidar ideas, leer y escribir sobre ello. Si te apetece recibir novedades, ideas sueltas y aleatorias, guías al respecto... estás en tu sitio.
+Soy <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">damalga</a> (acrónimo de mi nombre), de Madrid. Y esto es un blog (con un boletín asociado) sobre tecnología, economía, filosofía, arte y libertad… En definitiva, cosas que me interesan. Me gusta consolidar ideas; leer y escribir sobre ellas. Si te apetece recibir novedades, ideas aleatorias y guías al respecto, estás en tu sitio.
 
 ---
 
 🇬🇧 About
 
-I’m Damalga (an acronym of my name): https://damalga.com, from Madrid.
-This is a site about technology, economy, philosophy, art, and freedom… In short, things that interest me. I like to keep things simple, consolidate ideas, read and write about all this.
-If you’re up for updates, random thoughts, or guides on these topics, you’re in the right place.
+I’m <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">damalga</a> (an acronym of my name), from Madrid. This is a blog (with an associated newsletter) about technology, economy, philosophy, art, and freedom… In short, things I care about. I like to consolidate ideas; read and write about them. If you’re up for updates, random thoughts, or guides on these topics, you’re in the right place.
