@@ -12,4 +12,4 @@ Soy <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">dama
 
 🇬🇧 About
 
-I’m <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">damalga</a> (an acronym of my name), from Madrid. This is a blog (with an associated newsletter) about technology, economy, philosophy, art, and freedom… In short, things I care about. I like to consolidate ideas; read and write about them. If you’re up for updates, random thoughts, or guides on these topics, you’re in the right place.
+I’m <a href="https://damalga.com" target="_blank" rel="noopener noreferrer">damalga</a> (an acronym of my name), from Madrid. This is a blog (with an associated newsletter) about technology, economy, philosophy, art and freedom… In short, things I care about. I like to consolidate ideas; read and write about them. If you’re up for updates, random thoughts, or guides on these topics, you’re in the right place.
