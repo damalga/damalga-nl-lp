@@ -48,6 +48,15 @@ div.highlight, figure.highlight{
     max-width: 880px;
 }
 
+//Header
+header.site-header{
+    .site-title{
+        img{
+            width: 3rem;
+        }
+    }
+}
+
 //Body
 body.site-body {
     background: black;
