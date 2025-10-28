@@ -20,8 +20,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: $darkest-gray;
+  background-color: $lighest-gray;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -103,7 +103,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  color: $heading-color;
+  color: $darkest-gray;
   font-weight: 500;
 }
 
@@ -113,16 +113,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-base-color;
+  color: $damalga-yellow;
   text-decoration: none;
 
   &:visited {
-    color: $link-visited-color;
+    color: $damalga-blue;
   }
 
   &:hover {
-    color: $link-hover-color;
-    text-decoration: underline $brand-color;
+    color: $damalga-yellow;
+    text-decoration: underline $damalga-yellow;
     text-underline-offset: 3px;
   }
 
@@ -140,8 +140,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
+  color: $damalga-yellow;
+  border-left: 4px solid $light-gray;
   padding-left: $spacing-unit * .5;
   @include relative-font-size(1.05);
   font-style: italic;
@@ -163,7 +163,7 @@ blockquote {
 pre,
 code {
   font-family: $code-font-family;
-  background-color: $code-background-color;
+  background-color: lighten($light-gray, 15%);
 
   @include media-query($on-palm) {
     font-family: monospace;
@@ -174,7 +174,7 @@ pre {
   padding: 8px 12px;
   font-size: 15px;
   line-height: 1.4;
-  color: $heading-color;
+  color: $darkest-gray;
   overflow-x: auto;
 
   > code {
@@ -185,7 +185,7 @@ pre {
 
 div.highlight, figure.highlight {
   @extend %vertical-rhythm;
-  border: 1px solid $border-color-01;
+  border: 1px solid $light-gray;
   border-radius: 3px;
   pre { margin: 0 }
   table, tbody, th, tr, td {
@@ -198,14 +198,14 @@ div.highlight, figure.highlight {
 
 figure.highlight {
   table { margin: -8px -12px -14px }
-  td.gutter { border-right: 1px solid $border-color-01 }
+  td.gutter { border-right: 1px solid $light-gray }
   td.code { width: 100% }
 }
 
 code.highlighter-rouge {
   padding: 1px 5px;
   font-size: 14px;
-  border: 1px solid $border-color-01;
+  border: 1px solid $light-gray;
   border-radius: 3px;
 }
 
@@ -268,23 +268,23 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: $table-text-color;
+  color: $darkest-gray;
   border-collapse: collapse;
-  border: 1px solid $table-border-color;
+  border: 1px solid $light-gray;
   tr {
     &:nth-child(even) {
-      background-color: $table-zebra-color;
+      background-color: lighten($light-gray, 15%);
     }
   }
   th, td {
     padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
   }
   th {
-    background-color: $table-header-bg-color;
-    border: 1px solid $table-header-border;
+    background-color: lighten($light-gray, 10%);
+    border: 1px solid $light-gray;
   }
   td {
-    border: 1px solid $table-border-color;
+    border: 1px solid $light-gray;
   }
 
   @include media-query($on-laptop) {
