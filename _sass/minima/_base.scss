@@ -1,296 +1,320 @@
 html {
-  font-size: $base-font-size;
+    font-size: $base-font-size;
 }
 
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
 }
-
-
 
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $darkest-gray;
-  background-color: $lighest-gray;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  overflow-wrap: break-word;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+        $base-font-family;
+    color: $darkest-gray;
+    background-color: $lighest-gray;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-wrap: break-word;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * .5;
+    margin-bottom: $spacing-unit * 0.5;
 }
 
 hr {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 }
 
 /**
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle;
+    max-width: 100%;
+    vertical-align: middle;
 }
-
-
 
 /**
  * Figures
  */
 figure > img {
-  display: block;
+    display: block;
 }
 
 figcaption {
-  font-size: $small-font-size;
+    font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
  */
-ul, ol {
-  margin-left: $spacing-unit;
+ul,
+ol {
+    margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
 }
-
-
 
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-  color: $darkest-gray;
-  font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $darkest-gray;
+    font-weight: 500;
 }
-
-
 
 /**
  * Links
  */
 a {
-  color: $damalga-yellow;
-  text-decoration: none;
-
-  &:visited {
-    color: $damalga-blue;
-  }
-
-  &:hover {
     color: $damalga-yellow;
-    text-decoration: underline $damalga-yellow;
-    text-underline-offset: 3px;
-  }
-
-  .social-media-list &:hover {
     text-decoration: none;
 
-    .username {
-      text-decoration: underline;
+    &:visited {
+        color: $damalga-blue;
     }
-  }
-}
 
+    &:hover {
+        color: $damalga-yellow;
+        text-decoration: underline $damalga-yellow;
+        text-underline-offset: 3px;
+    }
+
+    .social-media-list &:hover {
+        text-decoration: none;
+
+        .username {
+            text-decoration: underline;
+        }
+    }
+}
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: $damalga-yellow;
-  border-left: 4px solid $light-gray;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.05);
-  font-style: italic;
+    color: $damalga-yellow;
+    border-left: 4px solid $light-gray;
+    padding-left: $spacing-unit * 0.5;
+    @include relative-font-size(1.05);
+    font-style: italic;
 
-  > :last-child {
-    margin-bottom: 0;
-  }
+    > :last-child {
+        margin-bottom: 0;
+    }
 
-  i, em {
-    font-style: normal;
-  }
+    i,
+    em {
+        font-style: normal;
+    }
 }
-
-
 
 /**
  * Code formatting
  */
 pre,
 code {
-  font-family: $code-font-family;
-  background-color: lighten($light-gray, 15%);
+    font-family: $code-font-family;
+    background-color: lighten($light-gray, 15%);
 
-  @include media-query($on-palm) {
-    font-family: monospace;
-  }
+    @include media-query($on-palm) {
+        font-family: monospace;
+    }
 }
 
 pre {
-  padding: 8px 12px;
-  font-size: 15px;
-  line-height: 1.4;
-  color: $darkest-gray;
-  overflow-x: auto;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: $darkest-gray;
+    overflow-x: auto;
 
-  > code {
-    display: inline-block;
-    width: 100%;
-  }
+    > code {
+        display: inline-block;
+        width: 100%;
+    }
 }
 
-div.highlight, figure.highlight {
-  @extend %vertical-rhythm;
-  border: 1px solid $light-gray;
-  border-radius: 3px;
-  pre { margin: 0 }
-  table, tbody, th, tr, td {
-    margin: 0;
-    padding: 0;
-    border: 0
-  }
-  .lineno, .gl { text-align: right }
+div.highlight,
+figure.highlight {
+    @extend %vertical-rhythm;
+    border: 1px solid $light-gray;
+    border-radius: 3px;
+    pre {
+        margin: 0;
+    }
+    table,
+    tbody,
+    th,
+    tr,
+    td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .lineno,
+    .gl {
+        text-align: right;
+    }
 }
 
 figure.highlight {
-  table { margin: -8px -12px -14px }
-  td.gutter { border-right: 1px solid $light-gray }
-  td.code { width: 100% }
+    table {
+        margin: -8px -12px -14px;
+    }
+    td.gutter {
+        border-right: 1px solid $light-gray;
+    }
+    td.code {
+        width: 100%;
+    }
 }
 
 code.highlighter-rouge {
-  padding: 1px 5px;
-  font-size: 14px;
-  border: 1px solid $light-gray;
-  border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 14px;
+    border: 1px solid $light-gray;
+    border-radius: 3px;
 }
-
-
 
 /**
  * Wrapper
  */
 .wrapper {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
-  @extend %clearfix;
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 0 $spacing-unit;
+    @extend %clearfix;
 
-  @media screen and (max-width: $on-medium) {
-    padding-right: $spacing-unit * 0.6;
-    padding-left: $spacing-unit * 0.6;
-  }
+    @media screen and (max-width: $on-medium) {
+        padding-right: $spacing-unit * 0.6;
+        padding-left: $spacing-unit * 0.6;
+    }
 }
-
-
 
 /**
  * Clearfix
  */
 %clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
-
-
 
 /**
  * Icons
  */
 
 .orange {
-  color: #f66a0a;
+    color: #f66a0a;
 }
 
 .grey {
-  color: #828282;
+    color: #828282;
 }
 
 .svg-icon {
-  width: 1.25em;
-  height: 1.25em;
-  display: inline-block;
-  fill: currentColor;
-  vertical-align: text-bottom;
-  overflow: visible;
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom;
+    overflow: visible;
 }
-
 
 /**
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
-  width: 100%;
-  text-align: $table-text-align;
-  color: $darkest-gray;
-  border-collapse: collapse;
-  border: 1px solid $light-gray;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($light-gray, 15%);
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    text-align: $table-text-align;
+    color: $darkest-gray;
+    border-collapse: collapse;
+    border: 1px solid $light-gray;
+    tr {
+        &:nth-child(even) {
+            background-color: lighten($light-gray, 20%);
+        }
     }
-  }
-  th, td {
-    padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
-  }
-  th {
-    background-color: lighten($light-gray, 10%);
-    border: 1px solid $light-gray;
-  }
-  td {
-    border: 1px solid $light-gray;
-  }
+    th,
+    td {
+        padding: ($spacing-unit * 33.3333333333 * 0.01) ($spacing-unit * 0.5);
+    }
+    th {
+        background-color: lighten($light-gray, 20%);
+        border: 1px solid $light-gray;
+    }
+    td {
+        background-color: lighten($light-gray, 40%);
+        border: 1px solid $light-gray;
+    }
 
-  @include media-query($on-laptop) {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
+    @include media-query($on-laptop) {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
 }
