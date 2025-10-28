@@ -7,6 +7,32 @@ $light-gray: #b1b1b1;
 $damalga-blue: #1b52bf;
 $damalga-yellow: #bf8c1b;
 
+// Base colors
+$text-color: $darkest-gray;
+$background-color: $lighest-gray;
+$heading-color: $darkest-gray;
+$brand-color: $damalga-yellow;
+$brand-color-dimmed: lighten($damalga-yellow, 10%);
+
 // Link colors
 $link-base-color: $damalga-yellow;
 $link-visited-color: $damalga-blue;
+$link-hover-color: $damalga-yellow;
+
+// Border colors
+$border-color-01: $light-gray;
+$border-color-02: darken($light-gray, 10%);
+$border-color-03: $damalga-yellow;
+
+// Code colors
+$code-background-color: lighten($light-gray, 15%);
+
+// Site title
+$site-title-color: $darkest-gray;
+
+// Table colors
+$table-text-color: $darkest-gray;
+$table-border-color: $light-gray;
+$table-header-bg-color: lighten($light-gray, 10%);
+$table-header-border: $light-gray;
+$table-zebra-color: lighten($light-gray, 15%);
